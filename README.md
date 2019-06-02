@@ -8,4 +8,4 @@ While the [current version of Sedgewick's Algorithms](https://amzn.to/2IhQbtE) i
 
 ## Algorithms
 
-* [Euclid's algorithm](chapter-2/gcd.rkt) for computing the greatest common divisor (GCD) of two numbers
+* [Euclid's algorithm](chapter-2/README.md) for computing the greatest common divisor (GCD) of two numbers
