@@ -19,7 +19,3 @@
 
 (define (primes n)
   (filter not-void? (get-indices (sieve n))))
-
- 
-
-

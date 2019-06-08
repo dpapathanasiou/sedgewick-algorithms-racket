@@ -2,9 +2,15 @@
 
 ## Arrays
 
-These are continguous blocks of memory, whose key feature is constant time lookup.
+These are continguous blocks of memory, whose key feature is constant time access.
 
 [Vectors](https://docs.racket-lang.org/reference/vectors.html?q=vector#%28def._%28%28quote._~23~25kernel%29._vector%29%29) are how they are implemented in [racket/base](https://docs.racket-lang.org/reference/index.html).
+
+### [Sieve of Eratosthenes](eratosthenes.rkt)
+
+This algorithm is an example of how an array's constant time referencing property is useful for implementing this [ancient technique](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) efficiently, even with the presence of the nested loop.
+
+The [unit test](eratosthenes-test.rkt) confirms the set of prime numbers between 1 and 30.
 
 ## Linked Lists 
 
