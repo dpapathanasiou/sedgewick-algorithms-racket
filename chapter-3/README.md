@@ -14,4 +14,9 @@ As Sedgewick notes, these are native to lisp, and [racket lists](https://docs.ra
 
 ## Pushdown Stacks 
 
+Stacks enforce last-in, first-out (LIFO) processing using two methods: push (put an item onto the stack) and pop (remove the top-most item off the stack).
+
+One way to implement a stack is to use linked lists.
+
 ## Queues
+
