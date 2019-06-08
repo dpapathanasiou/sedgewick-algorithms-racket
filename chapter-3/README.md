@@ -20,3 +20,6 @@ One way to implement a stack is to use linked lists.
 
 ## Queues
 
+Queues enforce first-in, first-out (FIFO) processing: insert puts a new item into the queue at the start (though some implementations allow insertion at any index), and remove deletes and returns the first element.
+ 
+Queues also come in double-ended varieties, also known as deques, which combine aspects of both stacks and queues.
