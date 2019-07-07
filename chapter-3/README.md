@@ -22,7 +22,17 @@ As Sedgewick notes, these are native to lisp, and [racket lists](https://docs.ra
 
 Stacks enforce last-in, first-out (LIFO) processing using two methods: push (put an item onto the stack) and pop (remove the top-most item off the stack).
 
-One way to implement a stack is to use linked lists.
+One way to implement a stack is to use linked lists, and since those are native to racket, the [implementation](stack.rkt) is quite simple.
+
+### Push
+
+By definition, [cons](https://docs.racket-lang.org/reference/pairs.html?q=car#%28def._%28%28quote._~23~25kernel%29._cons%29%29) of element onto a list pushes the element to the first position in a list, returning the updated list.
+
+### Pop
+
+The [car](https://docs.racket-lang.org/reference/pairs.html?q=car#%28def._%28%28quote._~23~25kernel%29._car%29%29) and [cdr](https://docs.racket-lang.org/reference/pairs.html?q=car#%28def._%28%28quote._~23~25kernel%29._cdr%29%29) commands in [racket-base](https://docs.racket-lang.org/reference/index.html?q=car) (or [first](https://docs.racket-lang.org/reference/pairs.html?q=car#%28def._%28%28lib._racket%2Flist..rkt%29._first%29%29) and [rest](https://docs.racket-lang.org/reference/pairs.html?q=car#%28def._%28%28lib._racket%2Flist..rkt%29._rest%29%29) in the [extended racket library](https://docs.racket-lang.org/reference/index.html?q=car)) correspond to the first element and remainder of the list, respectively.
+
+Since the [implementation](stack.rkt) is immutable, the [tests](stack-test.rkt) use the [set!](https://docs.racket-lang.org/reference/set_.html?q=car#%28form._%28%28quote._~23~25kernel%29._set%21%29%29) construct to record the changes made by `push` and `pop` on the original stack.
 
 ## Queues
 
