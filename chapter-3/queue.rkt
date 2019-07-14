@@ -23,4 +23,3 @@
   (values
    (get-last-element queue)
    (first-n-elements queue (- (length queue) 1))))
-
