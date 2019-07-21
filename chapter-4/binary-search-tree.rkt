@@ -22,3 +22,10 @@
                (insert (node-right tree) value))]
           [else tree])
         tree)))
+
+(define (list->tree lst)
+  (define (l->t l a)
+    (if (null? l)
+        a
+        (l->t (cdr l) (insert a (car l)))))
+  (l->t lst '()))
