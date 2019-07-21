@@ -31,3 +31,5 @@
         a
         (l->t (cdr l) (insert a (car l)))))
   (l->t lst '()))
+
+; TODO: implement (traverse) for pre/post/in-order traversal
