@@ -1,5 +1,7 @@
 #lang racket/base
 
+(provide node list->tree)
+
 (struct node (value left right)
   #:transparent
   #:mutable)
