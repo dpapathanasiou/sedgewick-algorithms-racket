@@ -2,10 +2,13 @@
 
 (provide lat?)
 
+(define (atom? a)
+  (not (list? a)))
+
 (define lat?
   (λ (l)
     (cond
       ((null? l) #t)
-      ((not (list? (car l))) (lat? (cdr l)))
+      ((atom? (car l)) (lat? (cdr l)))
       (else #f))))
 
