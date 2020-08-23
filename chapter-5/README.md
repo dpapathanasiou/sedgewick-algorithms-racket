@@ -16,4 +16,5 @@ When recurring on a number, n, ask two questions about is: `(zero? n)` and `else
 
 When recurring on a list of [S-expressions](https://en.wikipedia.org/wiki/S-expression), l, ask three questions about it: `(null? l)`, `(atom? (car l))`, and `else`.
 
-* [lat?](list-of-atoms.rkt)
+* [(lat?)](list-of-atoms.rkt)
+* [Unit tests for (lat?)](list-of-atoms-test.rkt)
