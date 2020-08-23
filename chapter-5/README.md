@@ -18,3 +18,6 @@ When recurring on a list of [S-expressions](https://en.wikipedia.org/wiki/S-expr
 
 * [(lat?)](list-of-atoms.rkt)
 * [Unit tests for (lat?)](list-of-atoms-test.rkt)
+
+* [(member?)](member-of.rkt)
+* [Unit tests for (member?)](member-of-test.rkt)
