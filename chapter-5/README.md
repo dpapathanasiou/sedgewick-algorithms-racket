@@ -21,3 +21,10 @@ When recurring on a list of [S-expressions](https://en.wikipedia.org/wiki/S-expr
 
 * [(member?)](member-of.rkt)
 * [Unit tests for (member?)](member-of-test.rkt)
+
+## The Second Commandment
+
+Use [cons](https://en.wikipedia.org/wiki/Cons) to build lists.
+
+* [(remove-member)](remove-member.rkt)
+* [Unit tests for (remove-member)](remove-member-test.rkt)
