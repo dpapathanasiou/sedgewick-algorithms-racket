@@ -16,9 +16,11 @@ When recurring on a number, n, ask two questions about is: `(zero? n)` and `else
 
 When recurring on a list of [S-expressions](https://en.wikipedia.org/wiki/S-expression), l, ask three questions about it: `(null? l)`, `(atom? (car l))`, and `else`.
 
+List of Atoms
 * [(lat?)](list-of-atoms.rkt)
 * [Unit tests for (lat?)](list-of-atoms-test.rkt)
 
+Member Of
 * [(member?)](member-of.rkt)
 * [Unit tests for (member?)](member-of-test.rkt)
 
@@ -33,8 +35,10 @@ Use [cons](https://en.wikipedia.org/wiki/Cons) to build lists.
 
 When building a list, describe the first typical element, then [cons](https://en.wikipedia.org/wiki/Cons) it onto the natural recursion.
 
+Firsts
 * [(firsts)](firsts.rkt)
 * [Unit tests for (firsts)](firsts-test.rkt)
 
+Insert right and left
 * [(inserts)](inserts.rkt)
 * [Unit tests for (inserts)](inserts-test.rkt)
