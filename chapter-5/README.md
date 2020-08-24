@@ -35,3 +35,6 @@ When building a list, describe the first typical element, then [cons](https://en
 
 * [(firsts)](firsts.rkt)
 * [Unit tests for (firsts)](firsts-test.rkt)
+
+* [(inserts)](inserts.rkt)
+* [Unit tests for (inserts)](inserts-test.rkt)
