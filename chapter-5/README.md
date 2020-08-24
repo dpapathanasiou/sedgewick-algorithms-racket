@@ -28,3 +28,10 @@ Use [cons](https://en.wikipedia.org/wiki/Cons) to build lists.
 
 * [(remove-member)](remove-member.rkt)
 * [Unit tests for (remove-member)](remove-member-test.rkt)
+
+## The Third Commandment
+
+When building a list, describe the first typical element, then [cons](https://en.wikipedia.org/wiki/Cons) it onto the natural recursion.
+
+* [(firsts)](firsts.rkt)
+* [Unit tests for (firsts)](firsts-test.rkt)
