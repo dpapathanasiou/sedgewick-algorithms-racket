@@ -42,3 +42,7 @@ Firsts
 Insert right and left
 * [(inserts)](inserts.rkt)
 * [Unit tests for (inserts)](inserts-test.rkt)
+
+## The Fourth Commandment
+
+Always change at least one argument while recurring. It must be changed closer to termination. The changing argument must be tested in the termination condition: when using `cdr`, test termination with `null?` and when using `sub1`, test termination with `zero?`.
