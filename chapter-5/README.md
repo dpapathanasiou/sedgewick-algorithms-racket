@@ -65,3 +65,11 @@ Tuple-plus
 Greater-Lesser
 * [(greater-lesser?)](greater-lesser-of.rkt)
 * [Unit tests for (greater-lesser?)](greater-lesser-of-test.rkt)
+
+## The Sixth Commandment
+
+Simplify only after the function is correct.
+
+* [(remove-member-simplified)](remove-member-simplified.rkt)
+* [Unit tests for (remove-member-simplified)](remove-member-simplified-test.rkt)
+
