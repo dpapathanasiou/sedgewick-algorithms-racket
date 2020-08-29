@@ -46,3 +46,20 @@ Insert right and left
 ## The Fourth Commandment
 
 Always change at least one argument while recurring. It must be changed closer to termination. The changing argument must be tested in the termination condition: when using `cdr`, test termination with `null?` and when using `sub1`, test termination with `zero?`.
+
+* [(times?)](times-of.rkt)
+* [Unit tests for (times?)](times-of-test.rkt)
+
+## The Fifth Commandment
+
+When building a value with `+` always use 0 for the value of the terminating line, for adding 0 does not change the value of an addition.
+
+When building a value with `*` always use 1 for the value of the terminating line, for multiplying by 1 does not change the value of a multiplication.
+
+When building a value with `cons` always consider `()` for the value of the terminating line.
+
+Tuple-plus
+* [(tup-plus?)](tup-plus-of.rkt)
+* [Unit tests for (tup-plus?)](tup-plus-of-test.rkt)
+
+
