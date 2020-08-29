@@ -62,4 +62,6 @@ Tuple-plus
 * [(tup-plus?)](tup-plus-of.rkt)
 * [Unit tests for (tup-plus?)](tup-plus-of-test.rkt)
 
-
+Greater-Lesser
+* [(greater-lesser?)](greater-lesser-of.rkt)
+* [Unit tests for (greater-lesser?)](greater-lesser-of-test.rkt)
