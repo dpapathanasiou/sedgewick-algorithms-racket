@@ -47,8 +47,8 @@ Insert right and left
 
 Always change at least one argument while recurring. It must be changed closer to termination. The changing argument must be tested in the termination condition: when using `cdr`, test termination with `null?` and when using `sub1`, test termination with `zero?`.
 
-* [(times?)](times-of.rkt)
-* [Unit tests for (times?)](times-of-test.rkt)
+* [(times?)](times.rkt)
+* [Unit tests for (times?)](times-test.rkt)
 
 ## The Fifth Commandment
 
@@ -59,12 +59,12 @@ When building a value with `*` always use 1 for the value of the terminating lin
 When building a value with `cons` always consider `()` for the value of the terminating line.
 
 Tuple-plus
-* [(tup-plus?)](tup-plus-of.rkt)
-* [Unit tests for (tup-plus?)](tup-plus-of-test.rkt)
+* [(tup-plus?)](tup-plus.rkt)
+* [Unit tests for (tup-plus?)](tup-plus-test.rkt)
 
 Greater-Lesser
-* [(greater-lesser?)](greater-lesser-of.rkt)
-* [Unit tests for (greater-lesser?)](greater-lesser-of-test.rkt)
+* [(greater-lesser?)](greater-lesser.rkt)
+* [Unit tests for (greater-lesser?)](greater-lesser-test.rkt)
 
 ## The Sixth Commandment
 
@@ -72,4 +72,14 @@ Simplify only after the function is correct.
 
 * [(remove-member-simplified)](remove-member-simplified.rkt)
 * [Unit tests for (remove-member-simplified)](remove-member-simplified-test.rkt)
+
+## The Seventh Commandment
+
+Recur on the *subparts* that are of the same nature:
+
+* On the sublists of a list
+* On the subexpressions of an arithmetic expression
+
+* [(value?)](value.rkt)
+* [Unit tests for (value?)](value-test.rkt)
 
