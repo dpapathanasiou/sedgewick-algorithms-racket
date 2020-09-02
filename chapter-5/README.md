@@ -83,3 +83,9 @@ Recur on the *subparts* that are of the same nature:
 * [(value?)](value.rkt)
 * [Unit tests for (value?)](value-test.rkt)
 
+## The Eighth Commandment
+
+Use help functions to abstract from representations.
+
+* [(sets?)](sets.rkt)
+* [Unit tests for (sets?)](sets-test.rkt)
