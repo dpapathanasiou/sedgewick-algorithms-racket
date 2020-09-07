@@ -89,3 +89,11 @@ Use help functions to abstract from representations.
 
 * [(sets?)](sets.rkt)
 * [Unit tests for (sets?)](sets-test.rkt)
+
+## The Ninth Commandment
+
+Abstract common patterns with a new function.
+
+Curried/Higher-Order Functions
+* [(remove-member-f)](curried-fn.rkt)
+* [Unit tests for (remove-member-f)](curried-fn-test.rkt)
