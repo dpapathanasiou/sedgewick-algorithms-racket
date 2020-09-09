@@ -97,3 +97,5 @@ Abstract common patterns with a new function.
 Curried/Higher-Order Functions
 * [(remove-member-f)](curried-fn.rkt)
 * [Unit tests for (remove-member-f)](curried-fn-test.rkt)
+* [(higher-order-value?)](higher-order-value.rkt)
+* [Unit tests for (higher-order-value?)](higher-order-value-test.rkt)
