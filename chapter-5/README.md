@@ -107,3 +107,7 @@ Build functions to collect more than one value at a time.
 [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)
 * [(C) to count cycles](collatz.rkt)
 * [Unit tests for (C) cycles](collatz-test.rkt)
+
+[Ackermann Function](https://en.wikipedia.org/wiki/Ackermann_function)
+* [(A)](ackermann.rkt)
+* [Unit tests for (A)](ackermann-test.rkt)
