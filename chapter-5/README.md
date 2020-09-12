@@ -111,3 +111,7 @@ Build functions to collect more than one value at a time.
 [Ackermann Function](https://en.wikipedia.org/wiki/Ackermann_function)
 * [(A)](ackermann.rkt)
 * [Unit tests for (A)](ackermann-test.rkt)
+
+[Strict (Applicative Order) Y Combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Strict_functional_implementation)
+* [Definitions of (factorial) and (fibonacci) using (Y)](y-combinator.rkt)
+* [Unit tests for the Y-based (factorial) and (fibonacci) functions](y-combinator-test.rkt)
